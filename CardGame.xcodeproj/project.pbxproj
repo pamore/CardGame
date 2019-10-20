@@ -15,6 +15,7 @@
 		4CC505EF235D177800C5879D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC505ED235D177800C5879D /* LaunchScreen.storyboard */; };
 		4CC505FA235D177800C5879D /* CardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC505F9235D177800C5879D /* CardGameTests.swift */; };
 		4CC50605235D177800C5879D /* CardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC50604235D177800C5879D /* CardGameUITests.swift */; };
+		4CC50614235D183900C5879D /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC50613235D183900C5879D /* CardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4CC50600235D177800C5879D /* CardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC50604235D177800C5879D /* CardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameUITests.swift; sourceTree = "<group>"; };
 		4CC50606235D177800C5879D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC50613235D183900C5879D /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4CC505E1235D177600C5879D /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				4CC50612235D17E700C5879D /* CardView */,
 				4CC505E2235D177600C5879D /* AppDelegate.swift */,
 				4CC505E4235D177600C5879D /* SceneDelegate.swift */,
 				4CC505E6235D177600C5879D /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				4CC50606235D177800C5879D /* Info.plist */,
 			);
 			path = CardGameUITests;
+			sourceTree = "<group>";
+		};
+		4CC50612235D17E700C5879D /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4CC50613235D183900C5879D /* CardView.xib */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				4CC505EF235D177800C5879D /* LaunchScreen.storyboard in Resources */,
 				4CC505EC235D177800C5879D /* Assets.xcassets in Resources */,
+				4CC50614235D183900C5879D /* CardView.xib in Resources */,
 				4CC505EA235D177600C5879D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
